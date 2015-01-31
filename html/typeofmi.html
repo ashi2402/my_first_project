@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My_DMIA_Project</title>
+    <link href="../css/Style_typeofmi.css" type="text/css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="top">
+        <img src="../image/image_slider/banner.PNG">
+        <!--  <div class="pic1"><img class="pic1" src="Image/Logo.jpg"></div>
+        <div class="pic2"><img class="pic2" src="Image/success1.jpg"></div>-->
+    </div>
+
+    <div id="topnav">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="">Dermatoglyphics</a>
+                    <ul>
+                        <li><a href="dmia.html">History</a></li>
+                        <li><a href="fingerprint.html">FingerPrint analysis</a></li>
+                        <li><a href="brainfinger.html">Relation of Brain & Fingerprint</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Multiple Intelligence</a>
+                    <ul>
+                        <li><a href="mi.html">History</a></li>
+                        <li><a href="brainpart.html">Brain & It's Part</a></li>
+                        <li><a href="typeofmi.html">Types of MI</a></li>
+                        <li><a href="learning.html">Learning Style</a></li>
+                        <li><a href="Quotient.html">Quotient</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="fordmia.html">Who is for DMIA?</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div id="banner">
+        <!--<body style="font-family:Arial, Verdana;background-color:#fff;">-->
+        <!-- it works the same with all jquery version from 1.x to 2.x -->
+        <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+        <!-- use jssor.slider.mini.js (40KB) instead for release -->
+        <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+        <script type="text/javascript" src="../js/jssor.js"></script>
+        <script type="text/javascript" src="../js/jssor.slider.js"></script>
+        <script>
+
+            jQuery(document).ready(function ($) {
+                var options = {
+
+                    $AutoPlay: true,                                   //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                    $DragOrientation: 1                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                };
+
+                var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+            });
+        </script>
+        <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 900px;
+        height: 350px;">
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 900px; height: 350px;
+            overflow: hidden;">
+                <div><img u="image" src="../image/image_slider/child_smiling.png"/></div>
+                <div><img u="image" src="../image/image_slider/child_shy.jpg"/></div>
+                <div><img u="image" src="../image/image_slider/hidden-potential.jpg"/></div>
+                <div><img u="image" src="../image/image_slider/who_m_i.jpg"/></div>
+                <div><img u="image" src="../image/image_slider/understand_dmia.png"/></div>
+
+            </div>
+            <!--<a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>-->
+        </div>
+
+    </div>
+
+    <div id="content-wrapper">
+        <div id="list">
+            <h3>Types of Multiple Intelligences</h3>
+            <ol>
+                <li>Interpersonal</li>
+                <li>Intrapersonal</li>
+                <li>Logical</li>
+                <li>Spatial</li>
+                <li>Bodily-Kinesthetic</li>
+                <li>Linguistic</li>
+                <li>Musical</li>
+                <li>Naturalist</li>
+                <li>Existential</li>
+            </ol>
+        </div>
+        <div id="pics">
+            <img src="../image/multiple-intelligence.png">
+        </div>
+        <div id="detail">
+            <table style="width: 800px; height: 600px;">
+                <tr>
+                    <td><strong>1. Interpersonal</strong>
+
+                        <p>Interpersonal intelligence is the ability to relate and understand other peoples’ emotions
+                            and intentions. These people are extroverts and like to work with others and are natural
+                            leaders.</p></td>
+                    <td><img src="../image/inter.png"></td>
+                </tr>
+                <tr>
+                    <td><strong>2. Interpersonal</strong>
+
+                        <p>Intrapersonal intelligence deals with self awareness, individual character and expertise in
+                            one’s own emotions, strengths, weakness and goals. They are able to learn and get motivated
+                            through life’s experiences and failures.
+                        </p></td>
+                    <td><img src="../image/intra.jpg"></td>
+                </tr>
+                <tr>
+                    <td><strong>3. Logical</strong>
+
+                        <p>Logical intelligence is about the ability to use reason, logic and numbers. They have a good
+                            concept of cause and effect about things. Logical intelligent people love mathematics and
+                            science and are sensitive to numerals.</p></td>
+                    <td><img src="../image/logical.jpg"></td>
+                </tr>
+                <tr>
+                    <td><strong>4. Spatial</strong>
+
+                        <p>Spatial intelligence is dealing with the ability in visualizing and manipulating objects
+                            visually. Spatial people are interested in colors, space and design, strong visual memory
+                            and love drawing. </p></td>
+                    <td><img src="../image/spatial.jpg"></td>
+                </tr>
+                <tr>
+                    <td><strong>5. Bodily-Kinesthetic</strong>
+
+                        <p>Bodily kinesthetic is the intelligence dealing with body movements and handle objects
+                            skillfully. Kinesthetic people have a good sense of balance and eye-hand coordination and
+                            make use of body language while expressing feelings and thoughts.</p></td>
+                    <td><img src="../image/body.jpg"></td>
+                </tr>
+                <tr>
+                    <td><strong>6. Linguistic</strong>
+
+                        <p>Linguistic intelligence refers to the ability to use words and language. Linguistic people
+                            have highly developed auditory skills and are highly capable of developing language
+                            skills. </p></td>
+                    <td><img src="../image/lingu.jpg"></td>
+                </tr>
+                <tr>
+                    <td><strong>7. Musical</strong>
+
+                        <p>People who have musical intelligence are sensitive to sounds, music, tones and rhythms. Such
+                            people are more likely to demonstrate strong abilities in pitch recognition, singing, and
+                            music playing or composing. </p></td>
+                    <td><img src="../image/musical.png"></td>
+                </tr>
+                <tr>
+                    <td><strong>8. Naturalist</strong>
+
+                        <p>People having naturalist intelligence can relate to nature. They learn well by doing
+                            something outside the classroom or by doing something physically. They excel in subjects
+                            that require collecting and analyzing, or are closely related to nature. </p></td>
+                    <td><img src="../image/nature.jpg"></td>
+                </tr>
+                <tr>
+                    <td><strong>9. Existential</strong>
+
+                        <p>Existential intelligence can be defined as the ability to be sensitive to, or have the
+                            capacity for, conceptualizing or tackling deeper or larger questions about human existence,
+                            such as the meaning of life, why are we born, why do we die, what is consciousness, or how
+                            did we get here.</p></td>
+                    <td><img src="../image/exist.jpg"></td>
+                </tr>
+
+
+            </table>
+
+        </div>
+
+    </div>
+    <div id="footer">
+        <div id="footer_text">
+             Design & Developed By : Ashish
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

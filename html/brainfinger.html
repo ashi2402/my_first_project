@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>My_DMIA_Project</title>
+    <link href="../css/Style_brainfinger.css" type="text/css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="top">
+        <img src="../image/image_slider/banner.PNG">
+        <!--  <div class="pic1"><img class="pic1" src="Image/Logo.jpg"></div>
+        <div class="pic2"><img class="pic2" src="Image/success1.jpg"></div>-->
+    </div>
+
+    <div id="topnav">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="">Dermatoglyphics</a>
+                    <ul>
+                        <li><a href="dmia.html">History</a></li>
+                        <li><a href="fingerprint.html">FingerPrint analysis</a></li>
+                        <li><a href="brainfinger.html">Relation of Brain & Fingerprint</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Multiple Intelligence</a>
+                    <ul>
+                        <li><a href="mi.html">History</a></li>
+                        <li><a href="brainpart.html">Brain & It's Part</a></li>
+                        <li><a href="typeofmi.html">Types of MI</a></li>
+                        <li><a href="learning.html">Learning Style</a></li>
+                        <li><a href="Quotient.html">Quotient</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="fordmia.html">Who is for DMIA?</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div id="banner">
+        <!--<body style="font-family:Arial, Verdana;background-color:#fff;">-->
+        <!-- it works the same with all jquery version from 1.x to 2.x -->
+        <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+        <!-- use jssor.slider.mini.js (40KB) instead for release -->
+        <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
+        <script type="text/javascript" src="../js/jssor.js"></script>
+        <script type="text/javascript" src="../js/jssor.slider.js"></script>
+        <script>
+
+            jQuery(document).ready(function ($) {
+                var options = {
+
+                    $AutoPlay: true,                                   //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                    $DragOrientation: 1                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+                };
+
+                var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+            });
+        </script>
+        <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 900px;
+        height: 350px;">
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 900px; height: 350px;
+            overflow: hidden;">
+                <div><img u="image" src="../image/image_slider/child_smiling.png"/></div>
+                <div><img u="image" src="../image/image_slider/child_shy.jpg"/></div>
+                <div><img u="image" src="../image/image_slider/hidden-potential.jpg"/></div>
+                <div><img u="image" src="../image/image_slider/who_m_i.jpg"/></div>
+                <div><img u="image" src="../image/image_slider/understand_dmia.png"/></div>
+
+            </div>
+            <!--<a style="display: none" href="http://www.jssor.com">Bootstrap Slider</a>-->
+        </div>
+
+    </div>
+
+    <div id="content-wrapper">
+        <h3>Relation Between Fingerprints and Brain</h3>
+
+        <p>Dermatoglyphics is an integration of neuroscience, medicine, genetics, psychology and behavioral science and
+            it is based on the formation and the amount of ridges present on the finger prints. Medical science has
+            already confirmed that during the growth of the foetus within the mother’s womb from the 13th – 19th week,
+            fingerprints are formed simultaneously with the development of the neocortex. They begin to develop in the
+            embryo in the 13th week, and are formed by the 24th week.It is closely related to the infant’s brain
+            development. The distribution of prints is considered to represent brain cells’ proportion and distribution
+            in each of the brain lobes.Through research, geneticists have proven that dermatoglyph formations are
+            controlled by chromosomes, and the patterns are influenced by polygenetic inheritance. </p>
+
+        <p>Human brain has two parts (Left Brain & right Brain) and each part consists of five lobes. These ten lobes
+            have different functionalities and these lobes are correlated with fingerprints of both hands. the hands are
+            sources of physiological and psychological information waiting to be tapped, hence the increasing importance
+            in the field of dermatoglyphics.IT is closely related to the infant’s brain development. The distribution of
+            prints is considered to represent brain cells’ proportion and distribution in each of the brain lobes.</p>
+
+        <p><b>The strong correlation between brain and fingerprints noticed by American doctors who discovered babies
+            had no brain, and the fact was revealed on that time that those babies did not have fingerprints either.
+            This child is called an Anenchephalous child. During pregnancy, if mother suffers from severe Folic Acid
+            deficiency, the Anenchephalous child is born.</b></p>
+        <img class="pic" src="../image/brain_fingerprints.png">
+    </div>
+    <div id="footer">
+        <div id="footer_text">
+             Design & Developed By : Ashish
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
