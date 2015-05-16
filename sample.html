@@ -2,44 +2,61 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
     <title>My_DMIA_Project</title>
-    <link href="css/Style.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="css/mobile.css" type="text/css" rel="stylesheet" media="screen">
 </head>
+
 <!-- Main Body Start here -->
 <body>
 <div id="wrapper">
     <div id="top">
-        <img src="image/image_slider/banner.PNG">
+        <img src="image/image_slider/banner.PNG " class="img-responsive" >
     </div>
 
     <div id="topnav">
-        <nav>
-            <ul>
+        <div class="navbar-header navbar-inverse">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h3>Navigation</h3>
+        </div>
+        <div class="collapse navbar-collapse" id="MyNavbar">
+            <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="">Dermatoglyphics</a>
-                    <ul>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dermatoglyphics<span
+                            class="caret"></span> </a>
+                    <ul class="dropdown-menu">
                         <li><a href="html/dmia.html">History</a></li>
-                        <li><a href="html/fingerprint.html">FingerPrint analysis</a></li>
-                        <li><a href="html/brainfinger.html">Relation of Brain & Fingerprint</a></li>
+                        <li><a href="html/fingerprint.html">FingerPrint Analysis</a></li>
+                        <li><a href="html/brainfinger.html">Relation of Brain & FingerPrints</a></li>
                     </ul>
                 </li>
-                <li><a href="">Multiple Intelligence</a>
-                    <ul>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Multiple Intelligence<span
+                            class="caret"></span> </a>
+                    <ul class="dropdown-menu">
                         <li><a href="html/mi.html">History</a></li>
                         <li><a href="html/brainpart.html">Brain & It's Part</a></li>
                         <li><a href="html/typeofmi.html">Types of MI</a></li>
                         <li><a href="html/learning.html">Learning Style</a></li>
                         <li><a href="html/Quotient.html">Quotient</a></li>
-
                     </ul>
                 </li>
-                <li><a href="html/fordmia.html">Who is for DMIA?</a></li>
+                <li><a href="html/fordmia.html">Who is for DMIA? </a></li>
                 <li><a href="html/faq.html">FAQ</a></li>
                 <li><a href="html/contact.html">Contact</a></li>
-
             </ul>
-        </nav>
+        </div>
+
     </div>
 
 
@@ -63,12 +80,11 @@
                 var jssor_slider1 = new $JssorSlider$("slider1_container", options);
             });
         </script>
-        <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 900px;
-        height: 350px;">
+        <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 270px;
+        height: 200px;">
             <!-- Slides Container -->
-            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 900px; height: 350px;
+            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 270px; height: 200px;
             overflow: hidden;">
-                <div><img u="image" src="image/image_slider/child_smiling.png"/></div>
                 <div><img u="image" src="image/image_slider/child_shy.jpg"/></div>
                 <div><img u="image" src="image/image_slider/hidden-potential.jpg"/></div>
                 <div><img u="image" src="image/image_slider/who_m_i.jpg"/></div>
@@ -101,14 +117,14 @@
 
         <div id="gallery">
             <ul>
-                <li><img src="image/child_potential.jpg"></li>
-                <li><img src="image/child_brilliance.jpg"></li>
+                <li><img src="image/child_potential.jpg" class="img-responsive" width="400"></li>
+                <li><img src="image/child_brilliance.jpg" class="img-responsive" width="400" ></li>
             </ul>
         </div>
     </div>
     <div id="footer">
         <div id="footer_text">
-        <p>Design & Developed By: Ashish</p>
+            <p>Design & Developed By: Ashish</p>
         </div>
     </div>
 </div>
