@@ -66,15 +66,9 @@ h3 {
     margin: 5px auto;
 }
 #content-wrapper p {
-    border: 1px solid black;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     padding: 10px;
     font-size: 12px;
     line-height: 180%;
-    background-color:antiquewhite;
-
 }
 #content-wrapper h2 {
     text-align: center;
@@ -171,14 +165,9 @@ h3 {
     }
 
     #content-wrapper p {
-        border: 1px solid black;
-        border-radius: 5px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
         padding: 10px;
         font-size: 12px;
         line-height: 180%;
-        background-color: antiquewhite;
 
     }
 
@@ -270,6 +259,7 @@ height: 200px
         width: 100%;
         height: 110px;
     }
+
     #content-wrapper {
         max-width: 100%;
         border: 1px solid black;
@@ -296,4 +286,4 @@ height: 200px
     #pic {
         height: 110px
     }
-
+}
